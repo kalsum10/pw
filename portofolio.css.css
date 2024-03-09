@@ -1,10 +1,12 @@
-** {
+** /* Reset CSS */
+* {
     padding: 0;
     margin: 0;
     text-decoration: none;
     box-sizing: border-box;
 }
 
+/* Home Section Styles */
 .home {
     height: 100vh;
     width: 100%;
@@ -13,13 +15,17 @@
     background-position: center; 
 }
 
+.audio id {
+    display: none;
+  }
 
+/* Navigation Styles */
 nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 10px 8%;
-   background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(bg2.jpeg);
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(bg2.jpeg);
 }
 
 .logo {
@@ -32,6 +38,7 @@ nav {
 span {
     color: rgb(196, 93, 110);
 }
+
 
 nav ul {
     list-style: none;
@@ -54,16 +61,14 @@ nav ul li a:hover {
     transition: 0.5s;
 }
 
+/* Content Styles */
 .content {
-    .content {
-        position: absolute;
-        top: 70%;
-        left: 8%;
-        transform: translateY(-50%);
-        text-align: left; 
-        max-width: 70%;
-    }
-    
+    position: absolute;
+    top: 70%;
+    left: 8%;
+    transform: translateY(-50%);
+    text-align: left; 
+    max-width: 70%;
 }
 
 h4, h1, h3 {
@@ -72,9 +77,8 @@ h4, h1, h3 {
     letter-spacing: 1px;
     cursor: pointer;
     text-align: left; 
-        max-width: 70%;
+    max-width: 70%;
 }
-
 
 .content a {
     font-size: 25px;
@@ -93,9 +97,10 @@ h4, h1, h3 {
     border: 2px solid #c77c89;
 }
 
+/* About Section Styles */
 .about {
     padding: 100px 0;
-    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(bg2.jpeg);;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(bg2.jpeg);
 }
 
 .about-me {
@@ -116,7 +121,7 @@ h4, h1, h3 {
 
 .about-text {
     color: white;
-    font-size: 65px;
+    font-size: 25px;
     text-transform: capitalize;
     margin-bottom: 20px;
     text-align: left;
@@ -148,6 +153,8 @@ h4, h1, h3 {
     border: 2px solid #d1818d;
     cursor: pointer;
 }
+
+/* Education Section Styles */
 
 .educations {
     text-align: center;
@@ -189,8 +196,7 @@ h4, h1, h3 {
     }
 }
 
-
-
+/* Certificate Section Styles */
 .Certificate {
     background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(bg2.jpeg);
     padding: 100px 0;
@@ -221,7 +227,7 @@ h4, h1, h3 {
     text-align: center;
 }
 
-
+/* Contact Section Styles */
 .Contact-me {
     background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(bg2.jpeg);
     width: auto;
@@ -282,8 +288,7 @@ h4, h1, h3 {
     margin: 10px 0 0;
 }
 
-
-
+/* Footer Styles */
 footer {
     position: relative;
     color: white;

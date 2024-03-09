@@ -23,6 +23,18 @@
             <li><a href="#contact">Contact</a></li>
         </ul>        
     </nav>
+    <audio id="background-music" loop>
+        <source src="IU - Love wins all.mp3" type="audio/mpeg">
+    </audio>
+    <button onclick="playMusic()">Play Music</button>
+    
+    <script>
+        function playMusic() {
+            var audio = document.getElementById("background-music");
+            audio.play();
+        }
+    </script>
+    
 
     <div class="content">
         <h4>Hello, I'm</h4>
@@ -69,8 +81,7 @@
         </div>
         <div class="box-kanan">
             <h3>University</h3>
-            <p>I study at Mulawarman University, Faculty of Engineering, Department of Information Systems JL. Sambaliung,
-               , Samarinda City</p> 
+            <p>I study at Mulawarman University, Faculty of Engineering, Department of Information Systems JL. Sambaliung</p> 
         </div>
     </div>
 </section>
